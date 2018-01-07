@@ -12,7 +12,7 @@ Basic public docker image based on circleci/node:7.10.1 for use in circleci jobs
 ```  yaml
 deploy-to-s3:
     docker:
-      - image: circleci/node:7.10.1
+      - image: wilson208/circleci-awscli
 
     environment:
       AWS_ACCESS_KEY_ID: ********
@@ -33,7 +33,7 @@ deploy-to-s3:
 ``` yaml
 deploy-to-lambda:
     docker:
-      - image: circleci/node:7.10.1
+      - image: wilson208/circleci-awscli
 
     environment:
       AWS_ACCESS_KEY_ID: ********

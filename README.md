@@ -11,6 +11,7 @@ circleci-awscli:php - circleci/php:7.1-browsers Based image
 ## What is included?
 - [aws cli](https://aws.amazon.com/cli/)
 - [jq](https://stedolan.github.io/jq/)
+- [serverless cli](https://serverless.com/)
 
 
 ## Example Usage

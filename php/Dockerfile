@@ -4,5 +4,4 @@ MAINTAINER Wilson McCoubrey
 
 RUN sudo apt-get update
 RUN sudo apt-get install python-pip python-dev jq
-RUN npm install -g serverless
 RUN sudo pip install awscli

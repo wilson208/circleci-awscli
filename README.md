@@ -1,4 +1,6 @@
 # circleci-awscli
+[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?style=flat-square&maxAge=3600)](https://hub.docker.com/r/wilson208/circleci-awscli/)
+[![Docker Build Status](https://img.shields.io/docker/build/jrottenberg/ffmpeg.svg?style=flat-square&maxAge=3600)](https://hub.docker.com/r/wilson208/circleci-awscli/)
 
 Basic public docker image for use in circleci jobs to deploy to AWS services
 

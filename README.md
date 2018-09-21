@@ -5,8 +5,8 @@
 Basic public docker image for use in circleci jobs to deploy to AWS services
 
 ## Available Variants
-circleci-awscli:latest - circleci/node:7.10.1 Based image
-circleci-awscli:node - circleci/node:7.10.1 Based image
+circleci-awscli:latest - circleci/node:10 Based image
+circleci-awscli:node - circleci/node:10 Based image
 circleci-awscli:php - circleci/php:7.1-browsers Based image
 
 
